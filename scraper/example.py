@@ -104,7 +104,7 @@ def ejemplo_uso_programatico():
                     monto_str = persona['recompensa'].replace('S/', '').replace(',', '').strip()
                     monto = float(monto_str)
                     total_recompensa += monto
-                except:
+                except (ValueError, TypeError):
                     pass
         
         print(f"\nEstadísticas:")
