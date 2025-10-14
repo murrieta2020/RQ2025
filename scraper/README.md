@@ -54,6 +54,21 @@ playwright install chromium
 
 ## 📖 Uso
 
+### Script de Ejecución Automática
+
+Para realizar una búsqueda automática de "william peter loayza mamani" con resultados formateados:
+
+```bash
+python run_search.py
+```
+
+Este script:
+- ✅ Ejecuta automáticamente la búsqueda sin interacción del usuario
+- ✅ Muestra los resultados con formato visual y emojis
+- ✅ Exporta automáticamente a JSON y CSV
+- ✅ Descarga las fotos de los requisitoriados
+- ✅ Muestra un resumen completo al finalizar
+
 ### Modo Interactivo
 
 Ejecuta el script principal:

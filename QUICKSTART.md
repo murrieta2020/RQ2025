@@ -17,7 +17,19 @@ playwright install chromium
 
 ## 💻 Uso Básico
 
-### Opción 1: Modo Interactivo (Recomendado para principiantes)
+### Opción 1: Búsqueda Automática (¡NUEVO! 🎉)
+
+```bash
+python run_search.py
+```
+
+**El método más rápido**: Ejecuta automáticamente una búsqueda de "william peter loayza mamani" con:
+- ✅ Salida formateada con emojis
+- ✅ Exportación automática a JSON y CSV
+- ✅ Descarga de fotos
+- ✅ Resumen completo al finalizar
+
+### Opción 2: Modo Interactivo (Recomendado para búsquedas personalizadas)
 
 ```bash
 python scraper.py
@@ -28,7 +40,7 @@ El script te preguntará:
 2. El nombre o apellido a buscar
 3. Automáticamente descargará fotos y exportará resultados
 
-### Opción 2: Ejemplos Predefinidos
+### Opción 3: Ejemplos Predefinidos
 
 ```bash
 python example.py
@@ -36,7 +48,7 @@ python example.py
 
 Este script incluye varios ejemplos que puedes usar como plantilla.
 
-### Opción 3: Uso como Módulo de Python
+### Opción 4: Uso como Módulo de Python
 
 ```python
 from scraper import RequisitoriadosScraper
@@ -113,10 +125,11 @@ Para información más detallada, consulta:
 
 ## 💡 Consejos
 
-1. **Primera vez**: Usa el modo interactivo (`python scraper.py`)
-2. **Búsquedas múltiples**: Usa nombres comunes separados por comas
-3. **Debugging**: Los logs te ayudarán a entender qué está pasando
-4. **Personalización**: Revisa el código y adapta según tus necesidades
+1. **Primera vez**: Usa el script automático (`python run_search.py`) para ver cómo funciona
+2. **Búsqueda personalizada**: Usa el modo interactivo (`python scraper.py`)
+3. **Búsquedas múltiples**: Usa nombres comunes separados por comas
+4. **Debugging**: Los logs te ayudarán a entender qué está pasando
+5. **Personalización**: Revisa el código y adapta según tus necesidades
 
 ## 🤝 ¿Necesitas ayuda?
 
