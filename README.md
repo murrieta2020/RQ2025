@@ -25,7 +25,19 @@ playwright install chromium
 
 ### Uso
 
+**Búsqueda automática (recomendado):**
+
 ```bash
+cd scraper
+python run_search.py
+```
+
+Este script ejecuta automáticamente una búsqueda de "william peter loayza mamani" y muestra los resultados con formato visual.
+
+**Modo interactivo:**
+
+```bash
+cd scraper
 python scraper.py
 ```
 
@@ -34,6 +46,8 @@ python scraper.py
 ```
 /scraper
   - scraper.py           # Script principal del scraper
+  - run_search.py        # Script de búsqueda automática
+  - example.py           # Ejemplos de uso
   - requirements.txt     # Dependencias de Python
   - README.md           # Documentación detallada
   /output              # Directorio de salida
@@ -55,6 +69,7 @@ Para instrucciones detalladas de uso, configuración y solución de problemas, c
 
 ## ✨ Características
 
+- ✅ Script de ejecución automática con salida formateada
 - ✅ Interfaz interactiva de línea de comandos
 - ✅ Búsqueda simple y múltiple
 - ✅ Manejo de páginas dinámicas Angular
@@ -62,6 +77,7 @@ Para instrucciones detalladas de uso, configuración y solución de problemas, c
 - ✅ Logging detallado
 - ✅ Descarga automática de fotos
 - ✅ Exportación dual (JSON y CSV)
+- ✅ Formato visual con emojis para mejor legibilidad
 
 ## 📄 Licencia
 
